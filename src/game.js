@@ -25,7 +25,7 @@ export default function Game() {
 
   // yılan kendi vücuduna temas ettiğinde oyunu sıfırlayan fonksiyon.
   const snakeTouchItself = () =>  {
-    alert("Kendini yememelisin :)")
+    alert("Yılana temas etmemeye dikkat et :)")
     setSnake([randomValueForSnakeAndFood(20)])
     setFood(randomValueForSnakeAndFood(18))
     setDirection("")
