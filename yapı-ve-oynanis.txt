@@ -1,0 +1,23 @@
+#### SNAKE GAME ####
+
+Oyun 3 ana dosyadan oluşmaktadır.
+
+SRC
+|
+ >  index.js (game.js'in html içine yazdırımının gerçekleştiği dosya.)
+ >  game.js (oyuna ait tüm ana yapının bulunduğu dosya.)
+ >  game.css (oyunun stil dosyası)
+
+
+OYUNUN KURULUMU
+1. Oyun dosyasını açtığınız IDE'nin komut satırına npm install yazınız.
+2. Oyunu web tarayıcınızda başlatmak için npm start yazmanız yeterli olacaktır.
+
+OYNANIŞ
+1. Oyunu başlatmak için "Oyunu Başlat" butonuna tıklayınız.
+2. Yılanın hareket etmesi için yön tuşlarınıu kullanınız oyunu durdurmak için yön tuşları dışında herhangi bir tuşa basınız.
+3. Duvara veya yılanın vücuduna temas etmeniz halinda oyun sıfırlanacaktır oyuna devam etmek için yön tuşlarına tekrar dokunmanız yeterli olacaktır.
+
+
+
+-- Diyar Kılıç
