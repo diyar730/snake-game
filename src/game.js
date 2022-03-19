@@ -41,7 +41,7 @@ export default function Game() {
     setScore(0)
   }
 
-  // map edilen kordinatlı grid hücrelerinin yılanın vücudu ile eşleşen alanlarını kontrol eder eşleşmesi halinde true değerini döner.
+  // map edilen koordinatlı grid hücrelerinin yılanın vücudu ile eşleşen alanlarını kontrol eder eşleşmesi halinde true değerini döner.
   const isItSnake = (e, r) => e.x === r.x && e.y === r.y ;
 
   // yem ve yılan için oyun başlangıcı ve yanma durumlarında rastgele konum belirler.
